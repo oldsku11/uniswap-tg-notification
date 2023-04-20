@@ -1,0 +1,31 @@
+{
+  "name": "uniswap-tg-notification",
+  "version": "1.0.0",
+  "description": "GPT4 provided instructions to get notifications about uniswap liquidity pool swap transactions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gpt4",
+    "tg",
+    "notification",
+    "uniswap",
+    "v3",
+    "pool",
+    "liquidity",
+    "management",
+    "swap",
+    "transaction",
+    "tx"
+  ],
+  "author": "oldsku11",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/contracts": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@uniswap/v3-sdk": "^3.9.0",
+    "axios": "^1.3.6",
+    "dotenv": "^16.0.3"
+  }
+}
